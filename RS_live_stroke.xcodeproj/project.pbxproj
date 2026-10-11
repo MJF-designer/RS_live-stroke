@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A75478A0CEB3120006D8805 /* LiveDropShadowGroup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A7547820CEB3120006D8805 /* LiveDropShadowGroup.cpp */; };
+		2A75478B0CEB3120006D8805 /* LiveDropShadowGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A7547830CEB3120006D8805 /* LiveDropShadowGroup.h */; };
+		2A75478C0CEB3120006D8805 /* LiveDropShadowID.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A7547840CEB3120006D8805 /* LiveDropShadowID.h */; };
+		2A75478D0CEB3120006D8805 /* LiveDropShadowPlugin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A7547850CEB3120006D8805 /* LiveDropShadowPlugin.cpp */; };
+		2A75478E0CEB3120006D8805 /* LiveDropShadowPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A7547860CEB3120006D8805 /* LiveDropShadowPlugin.h */; };
+		2A75478F0CEB3120006D8805 /* LiveDropShadowSuites.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A7547870CEB3120006D8805 /* LiveDropShadowSuites.cpp */; };
+		2A7547900CEB3120006D8805 /* LiveDropShadowSuites.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A7547880CEB3120006D8805 /* LiveDropShadowSuites.h */; };
+		2A75479B0CEB3293006D8805 /* AppContext.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A7547950CEB3293006D8805 /* AppContext.cpp */; };
+		2A75479C0CEB3293006D8805 /* IllustratorSDK.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A7547960CEB3293006D8805 /* IllustratorSDK.cpp */; };
+		2A75479D0CEB3293006D8805 /* Main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A7547970CEB3293006D8805 /* Main.cpp */; };
+		2A75479E0CEB3293006D8805 /* Plugin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A7547980CEB3293006D8805 /* Plugin.cpp */; };
+		2A75479F0CEB3293006D8805 /* SDKAboutPluginsHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A7547990CEB3293006D8805 /* SDKAboutPluginsHelper.cpp */; };
+		2A7547A00CEB3293006D8805 /* Suites.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A75479A0CEB3293006D8805 /* Suites.cpp */; };
+		2A7547A20CEB32A7006D8805 /* IAIUnicodeString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A7547A10CEB32A7006D8805 /* IAIUnicodeString.cpp */; };
+		3B76E60B305D36680087AB10 /* plugin.pipl in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3B4922D1305C808000318A39 /* plugin.pipl */; };
+		A1C6128925E4CCF7003B9F60 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1C6128825E4CCF7003B9F60 /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3B76E60A305D36390087AB10 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Resources/pipl;
+			dstSubfolderSpec = 1;
+			files = (
+				3B76E60B305D36680087AB10 /* plugin.pipl in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2A7547820CEB3120006D8805 /* LiveDropShadowGroup.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LiveDropShadowGroup.cpp; path = Source/LiveDropShadowGroup.cpp; sourceTree = "<group>"; };
+		2A7547830CEB3120006D8805 /* LiveDropShadowGroup.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = LiveDropShadowGroup.h; path = Source/LiveDropShadowGroup.h; sourceTree = "<group>"; };
+		2A7547840CEB3120006D8805 /* LiveDropShadowID.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = LiveDropShadowID.h; path = Source/LiveDropShadowID.h; sourceTree = "<group>"; };
+		2A7547850CEB3120006D8805 /* LiveDropShadowPlugin.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LiveDropShadowPlugin.cpp; path = Source/LiveDropShadowPlugin.cpp; sourceTree = "<group>"; };
+		2A7547860CEB3120006D8805 /* LiveDropShadowPlugin.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = LiveDropShadowPlugin.h; path = Source/LiveDropShadowPlugin.h; sourceTree = "<group>"; };
+		2A7547870CEB3120006D8805 /* LiveDropShadowSuites.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = LiveDropShadowSuites.cpp; path = Source/LiveDropShadowSuites.cpp; sourceTree = "<group>"; };
+		2A7547880CEB3120006D8805 /* LiveDropShadowSuites.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = LiveDropShadowSuites.h; path = Source/LiveDropShadowSuites.h; sourceTree = "<group>"; };
+		2A7547950CEB3293006D8805 /* AppContext.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = AppContext.cpp; path = ../common/source/AppContext.cpp; sourceTree = SOURCE_ROOT; };
+		2A7547960CEB3293006D8805 /* IllustratorSDK.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = IllustratorSDK.cpp; path = ../common/source/IllustratorSDK.cpp; sourceTree = SOURCE_ROOT; };
+		2A7547970CEB3293006D8805 /* Main.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = Main.cpp; path = ../common/source/Main.cpp; sourceTree = SOURCE_ROOT; };
+		2A7547980CEB3293006D8805 /* Plugin.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = Plugin.cpp; path = ../common/source/Plugin.cpp; sourceTree = SOURCE_ROOT; };
+		2A7547990CEB3293006D8805 /* SDKAboutPluginsHelper.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = SDKAboutPluginsHelper.cpp; path = ../common/source/SDKAboutPluginsHelper.cpp; sourceTree = SOURCE_ROOT; };
+		2A75479A0CEB3293006D8805 /* Suites.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = Suites.cpp; path = ../common/source/Suites.cpp; sourceTree = SOURCE_ROOT; };
+		2A7547A10CEB32A7006D8805 /* IAIUnicodeString.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = IAIUnicodeString.cpp; path = ../../illustratorapi/illustrator/IAIUnicodeString.cpp; sourceTree = SOURCE_ROOT; };
+		3B4922D1305C808000318A39 /* plugin.pipl */ = {isa = PBXFileReference; lastKnownFileType = file; path = plugin.pipl; sourceTree = "<group>"; };
+		6E0C50D00A8B64C900C9A14A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../common/mac/Info.plist; sourceTree = SOURCE_ROOT; };
+		6EE2BA530A40BB2600CC7CE2 /* RS_live_stroke.aip */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RS_live_stroke.aip; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1C370F125E4CC5A00AA579B /* AIPluginRelease.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = AIPluginRelease.xcconfig; path = ../common/mac/AIPluginRelease.xcconfig; sourceTree = "<group>"; };
+		A1C370F225E4CC5A00AA579B /* AIPluginCommon.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = AIPluginCommon.xcconfig; path = ../common/mac/AIPluginCommon.xcconfig; sourceTree = "<group>"; };
+		A1C370F325E4CC5A00AA579B /* AIPluginDebug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = AIPluginDebug.xcconfig; path = ../common/mac/AIPluginDebug.xcconfig; sourceTree = "<group>"; };
+		A1C6128825E4CCF7003B9F60 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		F938CAEC0B8B9CBA0039754D /* LiveDropShadow.r */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.rez; name = LiveDropShadow.r; path = Resources/Mac/LiveDropShadow.r; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		508817D209F0C9AD0071BF1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1C6128925E4CCF7003B9F60 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AA5F7D50CC4ADD50097FEC9 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				2A7547A10CEB32A7006D8805 /* IAIUnicodeString.cpp */,
+				2A7547950CEB3293006D8805 /* AppContext.cpp */,
+				2A7547960CEB3293006D8805 /* IllustratorSDK.cpp */,
+				2A7547970CEB3293006D8805 /* Main.cpp */,
+				2A7547980CEB3293006D8805 /* Plugin.cpp */,
+				2A7547990CEB3293006D8805 /* SDKAboutPluginsHelper.cpp */,
+				2A75479A0CEB3293006D8805 /* Suites.cpp */,
+			);
+			name = Shared;
+			sourceTree = "<group>";
+		};
+		508817C209F0C9740071BF1A = {
+			isa = PBXGroup;
+			children = (
+				A1C370F025E4CC4500AA579B /* xcconfigs */,
+				A1C6128725E4CCF7003B9F60 /* Frameworks */,
+				508817F509F0CAB50071BF1A /* Sources */,
+				6EE2BA590A40BDD300CC7CE2 /* Resources */,
+				508817D509F0C9AD0071BF1A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		508817D509F0C9AD0071BF1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EE2BA530A40BB2600CC7CE2 /* RS_live_stroke.aip */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		508817F509F0CAB50071BF1A /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				2AA5F7D50CC4ADD50097FEC9 /* Shared */,
+				2A7547820CEB3120006D8805 /* LiveDropShadowGroup.cpp */,
+				2A7547830CEB3120006D8805 /* LiveDropShadowGroup.h */,
+				2A7547840CEB3120006D8805 /* LiveDropShadowID.h */,
+				2A7547850CEB3120006D8805 /* LiveDropShadowPlugin.cpp */,
+				2A7547860CEB3120006D8805 /* LiveDropShadowPlugin.h */,
+				2A7547870CEB3120006D8805 /* LiveDropShadowSuites.cpp */,
+				2A7547880CEB3120006D8805 /* LiveDropShadowSuites.h */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		6EE2BA590A40BDD300CC7CE2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F938CAEC0B8B9CBA0039754D /* LiveDropShadow.r */,
+				6E0C50D00A8B64C900C9A14A /* Info.plist */,
+				3B4922D1305C808000318A39 /* plugin.pipl */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A1C370F025E4CC4500AA579B /* xcconfigs */ = {
+			isa = PBXGroup;
+			children = (
+				A1C370F225E4CC5A00AA579B /* AIPluginCommon.xcconfig */,
+				A1C370F325E4CC5A00AA579B /* AIPluginDebug.xcconfig */,
+				A1C370F125E4CC5A00AA579B /* AIPluginRelease.xcconfig */,
+			);
+			name = xcconfigs;
+			sourceTree = "<group>";
+		};
+		A1C6128725E4CCF7003B9F60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1C6128825E4CCF7003B9F60 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6EE2BA0A0A40B76300CC7CE2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A75478B0CEB3120006D8805 /* LiveDropShadowGroup.h in Headers */,
+				2A75478C0CEB3120006D8805 /* LiveDropShadowID.h in Headers */,
+				2A75478E0CEB3120006D8805 /* LiveDropShadowPlugin.h in Headers */,
+				2A7547900CEB3120006D8805 /* LiveDropShadowSuites.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		508817D309F0C9AD0071BF1A /* RS_live_stroke */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 508817D709F0C9AE0071BF1A /* Build configuration list for PBXNativeTarget "RS_live_stroke" */;
+			buildPhases = (
+				FDD915FE21AC066F0018B958 /* ShellScript */,
+				6EE2BA0A0A40B76300CC7CE2 /* Headers */,
+				508817D109F0C9AD0071BF1A /* Sources */,
+				508817D009F0C9AD0071BF1A /* Resources */,
+				508817D209F0C9AD0071BF1A /* Frameworks */,
+				3B76E60A305D36390087AB10 /* CopyFiles */,
+				3BADB469307393290081DC29 /* ShellScript */,
+				3BADB46A307395F00081DC29 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RS_live_stroke;
+			productName = DropShadowProject;
+			productReference = 6EE2BA530A40BB2600CC7CE2 /* RS_live_stroke.aip */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		508817C409F0C9740071BF1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2700;
+			};
+			buildConfigurationList = 508817C509F0C9740071BF1A /* Build configuration list for PBXProject "RS_live_stroke" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 508817C209F0C9740071BF1A;
+			productRefGroup = 508817D509F0C9AD0071BF1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				508817D309F0C9AD0071BF1A /* RS_live_stroke */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		508817D009F0C9AD0071BF1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3BADB469307393290081DC29 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "codesign --force --deep --sign - \"$TARGET_BUILD_DIR/$FULL_PRODUCT_NAME\"\n";
+		};
+		3BADB46A307395F00081DC29 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cp -R \"$TARGET_BUILD_DIR/$FULL_PRODUCT_NAME\" \"/Users/markfoster/Desktop/Illustrator SDK/samplecode/output/mac/debug/\"\ncodesign --force --deep --sign - \"/Users/markfoster/Desktop/Illustrator SDK/samplecode/output/mac/debug/$FULL_PRODUCT_NAME\"\n";
+		};
+		FDD915FE21AC066F0018B958 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# 1. Ensure the Resources and pipl directories exist\nmkdir -p \"$TARGET_BUILD_DIR/$UNLOCALIZED_RESOURCES_FOLDER_PATH/pipl\"\n\n# 2. Run Python to generate the pipl file\npython3 ../../tools/pipl/create_pipl.py -input '[{\"name\":\"LiveDropShadow\",\"entry_point\":\"PluginMain\"}]'\n\n# 3. Copy plugin.pipl directly into the root Resources folder\nif [ -f \"$TARGET_BUILD_DIR/$UNLOCALIZED_RESOURCES_FOLDER_PATH/pipl/plugin.pipl\" ]; then\n    cp \"$TARGET_BUILD_DIR/$UNLOCALIZED_RESOURCES_FOLDER_PATH/pipl/plugin.pipl\" \"$TARGET_BUILD_DIR/$UNLOCALIZED_RESOURCES_FOLDER_PATH/plugin.pipl\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		508817D109F0C9AD0071BF1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A75478A0CEB3120006D8805 /* LiveDropShadowGroup.cpp in Sources */,
+				2A75478D0CEB3120006D8805 /* LiveDropShadowPlugin.cpp in Sources */,
+				2A75478F0CEB3120006D8805 /* LiveDropShadowSuites.cpp in Sources */,
+				2A75479B0CEB3293006D8805 /* AppContext.cpp in Sources */,
+				2A75479C0CEB3293006D8805 /* IllustratorSDK.cpp in Sources */,
+				2A75479D0CEB3293006D8805 /* Main.cpp in Sources */,
+				2A75479E0CEB3293006D8805 /* Plugin.cpp in Sources */,
+				2A75479F0CEB3293006D8805 /* SDKAboutPluginsHelper.cpp in Sources */,
+				2A7547A00CEB3293006D8805 /* Suites.cpp in Sources */,
+				2A7547A20CEB32A7006D8805 /* IAIUnicodeString.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		508817C609F0C9740071BF1A /* debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1C370F225E4CC5A00AA579B /* AIPluginCommon.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+			};
+			name = debug;
+		};
+		508817C709F0C9740071BF1A /* release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1C370F225E4CC5A00AA579B /* AIPluginCommon.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+			};
+			name = release;
+		};
+		508817D809F0C9AE0071BF1A /* debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1C370F325E4CC5A00AA579B /* AIPluginDebug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				HEADER_SEARCH_PATHS = (
+					../../illustratorapi/ate,
+					../../illustratorapi/illustrator,
+					../../illustratorapi/illustrator/actions,
+					../../illustratorapi/pica_sp,
+					/Developer/Headers/FlatCarbon,
+					../common/includes,
+					Source,
+					"$(SRCROOT)/../../illustratorapi/**",
+				);
+				OTHER_CFLAGS = "-Wno-deprecated-declarations";
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-Wno-deprecated-declarations",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rs.livestroke;
+				PRODUCT_MODULE_NAME = "RS_live stroke";
+				PRODUCT_NAME = RS_live_stroke;
+			};
+			name = debug;
+		};
+		508817D909F0C9AE0071BF1A /* release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1C370F125E4CC5A00AA579B /* AIPluginRelease.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				HEADER_SEARCH_PATHS = (
+					../../illustratorapi/ate,
+					../../illustratorapi/illustrator,
+					../../illustratorapi/illustrator/actions,
+					../../illustratorapi/pica_sp,
+					/Developer/Headers/FlatCarbon,
+					../common/includes,
+					Source,
+					"$(SRCROOT)/../../illustratorapi/**",
+				);
+				OTHER_CFLAGS = "-Wno-deprecated-declarations";
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-Wno-deprecated-declarations",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rs.livestroke;
+				PRODUCT_MODULE_NAME = "RS_live stroke";
+				PRODUCT_NAME = RS_live_stroke;
+			};
+			name = release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		508817C509F0C9740071BF1A /* Build configuration list for PBXProject "RS_live_stroke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				508817C609F0C9740071BF1A /* debug */,
+				508817C709F0C9740071BF1A /* release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = debug;
+		};
+		508817D709F0C9AE0071BF1A /* Build configuration list for PBXNativeTarget "RS_live_stroke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				508817D809F0C9AE0071BF1A /* debug */,
+				508817D909F0C9AE0071BF1A /* release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 508817C409F0C9740071BF1A /* Project object */;
+}
